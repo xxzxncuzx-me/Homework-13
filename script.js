@@ -22,6 +22,7 @@ if (!number) {
   function splitNumber(num) {
     return num.split('').join(' ');
   }
+  const array = splitNumber(number);
+  alert(array);
 }
-const array = splitNumber(number);
-alert(array);
+
